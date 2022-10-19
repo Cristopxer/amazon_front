@@ -8,7 +8,13 @@ function Main() {
       <div className="header_container">
         <Header />
       </div>
-      <h1>Main</h1>
+      <div className="home">
+        <img
+          src="https://m.media-amazon.com/images/I/61IlupYtztL._SX1500_.jpg"
+          className="home_image"
+          alt="amazon_banner"
+        />
+      </div>
     </div>
   );
 }
