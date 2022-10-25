@@ -17,37 +17,14 @@ function Main() {
         />
         <div className="home_row">
           <Product
-            id="123123"
+            id="12313"
             title="Nintendo Switch – OLED Model w/ White Joy-Con"
             price={12.34}
             rating={4}
             image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
           />
           <Product
-            id="123123"
-            title="Nintendo Switch – OLED Model w/ White Joy-Con"
-            price={12.34}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
-          />
-        </div>
-        <div className="home_row">
-          <Product
-            id="123123"
-            title="Nintendo Switch – OLED Model w/ White Joy-Con"
-            price={12.34}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
-          />
-          <Product
-            id="123123"
-            title="Nintendo Switch – OLED Model w/ White Joy-Con"
-            price={12.34}
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
-          />
-          <Product
-            id="123123"
+            id="13123"
             title="Nintendo Switch – OLED Model w/ White Joy-Con"
             price={12.34}
             rating={4}
@@ -56,12 +33,35 @@ function Main() {
         </div>
         <div className="home_row">
           <Product
-            id="123123"
+            id="12312"
             title="Nintendo Switch – OLED Model w/ White Joy-Con"
             price={12.34}
             rating={4}
             image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
-          />          
+          />
+          <Product
+            id="13123"
+            title="Nintendo Switch – OLED Model w/ White Joy-Con"
+            price={12.34}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
+          />
+          <Product
+            id="1233"
+            title="Nintendo Switch – OLED Model w/ White Joy-Con"
+            price={12.34}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
+          />
+        </div>
+        <div className="home_row">
+          <Product
+            id="123"
+            title="Nintendo Switch – OLED Model w/ White Joy-Con"
+            price={12.34}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg"
+          />
         </div>
       </div>
     </div>
