@@ -1,6 +1,24 @@
 export const initialState = {
-  basket: [],
+  basket: [
+    {
+      id: "2",
+      title: "Nintendo Switch – OLED Model w/ White Joy-Con",
+      price: 12.34,
+      rating: 4,
+      image: "https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg",
+    },
+    {
+      id: "1",
+      title: "Nintendo Switch – OLED Model w/ White Joy-Con",
+      price: 12.34,
+      rating: 4,
+      image: "https://m.media-amazon.com/images/I/61dYrzvBLbL._AC_UL320_.jpg",
+    },
+  ],
 };
+
+export const getBasketTotal = (basket) =>
+  basket?.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -9,7 +27,19 @@ const reducer = (state, action) => {
       return { ...state, basket: [...state.basket, action.item] };
     case "REMOVE_FROM_BASKET":
       // logic for removing item from basket
-      return { state };
+      let newBasket = [...state.basket];
+      const index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+      if (index >= 0) {
+        // item exists
+        newBasket.splice(index, 1);
+      } else {
+        console.warn(
+          `Cant remove product (id: ${action.id} as its not in the basket) `
+        );
+      }
+      return { ...state, basket: newBasket };
     default:
       return state;
   }
