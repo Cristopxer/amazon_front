@@ -3,6 +3,7 @@ import "./Product.css";
 import { useStateValue } from "../StateAPI/StateProvider";
 
 function Product({ id, title, image, price, rating }) {
+  // eslint-disable-next-line no-empty-pattern
   const [{}, dispatch] = useStateValue();
 
   const addToBasket = () => {
