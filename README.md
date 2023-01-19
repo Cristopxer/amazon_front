@@ -8,6 +8,21 @@ Let's keep learning
 * Basket : You can add and remove items from your basket, not worries your basket is linked to your account, you can access it any time, any device.
 * Subtotal : Calculates the total price of all the products selected in your basket.
 
+## Technologies
+
+### Backend
+
+* Firebase
+* FireStore
+* FireAuth
+
+### Frontend
+
+* React
+* React Router
+* Context API
+* CSS
+
 ## Live demo view ?
 of course, here is a link to view it live:
 
